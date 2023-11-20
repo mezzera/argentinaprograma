@@ -1,0 +1,16 @@
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left : 40px;
+    padding:30px;
+    text-align: center;
+
+}
+
+
+.card {
+    margin: 30px;
+   
+}
+
