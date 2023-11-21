@@ -24,12 +24,13 @@ export const TaskForm = ({settareas}) => {
     <>
 
      <div className='formulario'>
+
       <form className='tareas' onSubmit={agregarTarea}>
       <h1>Tareas</h1>
    
    <input 
+    placeholder='Ingrese su tarea'
    className='input'
-   placeholder='Ingrese su tarea'
    type= "text"
    name = "nombre"
 />
